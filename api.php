@@ -23,6 +23,7 @@ if (isset($_GET['email']) && $_GET['email']!="") {
 	$personData['person_first_name'] = $row['first_name'];
 	$personData['person_last_name'] = $row['last_name'];
 	$personData['email'] = $row['email'];
+	$personData['password'] = $row['password'];
 	
 
 	$response["status"] = "true";
